@@ -37,6 +37,14 @@ Sound2Lightを開き、画面左中央のSettingsを開き、以下に設定を�
 `Sound2LightTexture.exe`を起動して、Sound2Lightに設定されたマイクに音声を流すことで、sound2light-textureはSound2Lightの送信するoscを受信し、画面に反映します。  
 ソフトの終了には、Alt+F4を押します。  
 ![image](https://github.com/Dolphiiiin/sound2light-texture/assets/42102311/a8e55051-1109-4d5c-90b5-f6942e832845)
+同梱の`config.json`で各種設定をします。(設定の変更後は、ソフトを再起動してください。)
+```
+{
+  "scroll": 20, (スクロールの速度 ms)
+  "port": 3333, (Sound2Lightのポート)
+  "address": "127.0.0.1" (Sound2Lightのアドレス)
+}
+```
 
 # サンプルファイルの使用方法
 Unityの`Assets/Sound2LightTexture`にサンプルファイル群が入っています。  
